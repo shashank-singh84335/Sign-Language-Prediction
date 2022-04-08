@@ -14,7 +14,7 @@ data_dir = 'dataset'
 #getting the labels form data directory
 labels = sorted(os.listdir(data_dir))
 labels[-1] = 'Nothing'
-# labels.pop(0)
+labels.pop(0)
 # for i in range(10):
 #     labels.pop(0)
 
